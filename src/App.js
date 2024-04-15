@@ -1,26 +1,21 @@
-import logo from './logo.svg';
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import CarbonDiagram from './components/CarbonDiagram';
+import ChatbotPage from './components/ChatbotPage';
 import Navbar from './components/Navbar';
-import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="App">
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<CarbonDiagram />} />
+          <Route path="/chatbot" element={<ChatbotPage />} />
+          {/* Add more routes */}
+        </Routes>
+      </div>
+    </Router>
   );
 }
 

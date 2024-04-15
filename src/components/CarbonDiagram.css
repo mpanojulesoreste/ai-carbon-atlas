@@ -1,0 +1,106 @@
+.diagram-element {
+    background-color: #f0f0f0;
+    border-radius: 50%;
+    padding: 20px;
+    text-align: center;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .ai-tools {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+ 
+  .chatbots {
+    position: absolute;
+    top: 18%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .content-creation {
+    position: absolute;
+    top: 30%;
+    right: 30%;
+  }
+  
+  .task-project-management {
+    position: absolute;
+    top: 42%;
+    right: 15%;
+  }
+  
+  .transcription-meeting-assistants {
+    position: absolute;
+    top: 65%;
+    right: 19%;
+  }
+  
+  .scheduling {
+    position: absolute;
+    bottom: 1%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .voice-music-generation {
+    position: absolute;
+    top: 65%;
+    left: 20%;
+  }
+  
+  .image-generation {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+  }
+  
+  .video-production {
+    position: absolute;
+    top: 35%;
+    left: 20%;
+  }
+  
+  .grammar-checkers {
+    position: absolute;
+    top: 20%;
+    left: 30%;
+  }
+
+  .line {
+    position: absolute;
+    background-color: #000;
+    transform-origin: left center;
+  }
+  
+  .line-1 {
+    top: 37.5%;
+    left: 50%;
+    width: 6.65%;
+    height: 2px;
+    transform: rotate(90deg);
+  }
+  
+  .line-2 {
+    top: 50%;
+    left: 70%;
+    width: 10%;
+    height: 2px;
+    transform: rotate(155deg);
+  }
+
+  .line-3 {
+    top: 69.9%;
+    left: 50%;
+    width: 7.65%;
+    height: 2px;
+    transform: rotate(90deg);
+  }
+  
+  /* Add more styles for each line */

@@ -1,0 +1,20 @@
+.chatbot-page {
+    text-align: center;
+  }
+  
+  .chatbot-content {
+    margin-top: 40px;
+  }
+  
+  .carbon-info {
+    margin-bottom: 40px;
+  }
+  
+  .carbon-reduction ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .carbon-reduction li {
+    margin-bottom: 10px;
+  }
