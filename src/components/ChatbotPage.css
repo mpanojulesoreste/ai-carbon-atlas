@@ -1,20 +1,49 @@
 .chatbot-page {
-    text-align: center;
-  }
-  
-  .chatbot-content {
-    margin-top: 40px;
-  }
-  
-  .carbon-info {
-    margin-bottom: 40px;
-  }
-  
-  .carbon-reduction ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  .carbon-reduction li {
-    margin-bottom: 10px;
-  }
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+.chatbot-content {
+  margin-top: 60px;
+}
+
+.carbon-info {
+  margin-bottom: 60px;
+}
+
+.carbon-info h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.carbon-info p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.carbon-reduction h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.carbon-reduction ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.carbon-reduction li {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  position: relative;
+  padding-left: 30px;
+}
+
+.carbon-reduction li:before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  color: #4caf50;
+  font-size: 20px;
+}

@@ -12,7 +12,7 @@ const CarbonDiagram = () => {
   <div className="line line-2"></div>
   <div className="line line-3"></div>
   <div className="diagram-element chatbots">
-  <Link to="/chatbot" className="diagram-element chatbots">
+  <Link to="/chatbot">
   <div>CHATBOTS</div>
 </Link>
 </div>
