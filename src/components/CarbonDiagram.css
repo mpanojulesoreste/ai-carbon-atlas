@@ -88,14 +88,6 @@
   }
   
   .line-2 {
-    top: 60%;
-    left: 40%;
-    width: 9%;
-    height: 2px;
-    transform: rotate(135deg);
-  }
-
-  .line-3 {
     top: 65.9%;
     left: 50%;
     width: 9.65%;
@@ -103,12 +95,20 @@
     transform: rotate(90deg);
   }
 
+  .line-3 {
+    top: 60%;
+    left: 40%;
+    width: 9%;
+    height: 2px;
+    transform: rotate(0deg);
+  }
+
   .line-4 {
     top: 60%;
     left: 40%;
     width: 9%;
     height: 2px;
-    transform: rotate(195deg);
+    transform: rotate(180deg);
   }
 
   .line-5 {
@@ -116,7 +116,7 @@
     left: 40%;
     width: 9%;
     height: 2px;
-    transform: rotate(180deg);
+    transform: rotate(225deg);
   }
   
   /* Add more styles for each line */
