@@ -100,7 +100,7 @@
     left: 40%;
     width: 9%;
     height: 2px;
-    transform: rotate(0deg);
+    transform: rotate(-180deg);
   }
 
   .line-4 {
@@ -113,10 +113,16 @@
 
   .line-5 {
     top: 60%;
-    left: 40%;
-    width: 9%;
+    left: 8.5in;
+    width: 3in;
     height: 2px;
-    transform: rotate(225deg);
+    transform: rotate(315deg);
   }
-  
-  /* Add more styles for each line */
+
+  .line-6 {
+    top: 60%;
+    left: 2in;
+    right: 2in;
+    width: 9in;
+    height: 2px;
+  }

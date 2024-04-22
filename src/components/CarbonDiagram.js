@@ -10,6 +10,7 @@ const CarbonDiagram = () => {
   <div className="line line-3"></div>
   <div className="line line-4"></div>
   <div className="line line-5"></div>
+  <div className="line line-6"></div>
   <div className="diagram-element ai-tools">
   <div>AI TOOLS</div>
   </div> 
