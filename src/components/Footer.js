@@ -15,7 +15,7 @@ const Footer = () => {
           <ul>
             <li>Email: info@aicarbonaltas.com</li>
             <li>Phone: 123-456-7890</li>
-            <li>Address: 123 AI Street, City, Country</li>
+            <li>Address: 123 AI Street, Prnceton, New Jersey</li>
           </ul>
         </div>
       </div>

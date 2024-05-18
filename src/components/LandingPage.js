@@ -7,6 +7,10 @@ import blogImage3 from './images/grammar_checkers.png';
 import blogImage4 from './images/chatbot.jpg';
 import blogImage5 from './images/video_production.png';
 import blogImage6 from './images/voice_generation.jpg';
+import blogImage7 from './images/scheduling.png';
+import blogImage8 from './images/transcr_meeting.png';
+import blogImage9 from './images/task_project.png';
+import blogImage10 from './images/content.png';
 
 const LandingPage = () => {
   return (
@@ -74,37 +78,37 @@ const LandingPage = () => {
           </div>
           <div className="col-md-12 animate-box">
             <Link to="#" className="blog-post">
-              <span className="img" style={{ backgroundImage: `url(${blogImage1})` }}></span>
+              <span className="img" style={{ backgroundImage: `url(${blogImage7})` }}></span>
               <div className="desc">
                 <h3>Scheduling</h3>
-                <span className="cat">This tool does this..</span>
+                <span className="cat">These tools use artificial intelligence to hekp with time management and productivity</span>
               </div>
             </Link>
           </div>
           <div className="col-md-12 animate-box">
             <Link to="#" className="blog-post">
-              <span className="img" style={{ backgroundImage: `url(${blogImage1})` }}></span>
+              <span className="img" style={{ backgroundImage: `url(${blogImage8})` }}></span>
               <div className="desc">
                 <h3>Transcription and Meeting Assistants</h3>
-                <span className="cat">This tool does this..</span>
+                <span className="cat">These tools use artificial intelligence to help with meetings, from scheduling to summaries</span>
               </div>
             </Link>
           </div>
           <div className="col-md-12 animate-box">
             <Link to="#" className="blog-post">
-              <span className="img" style={{ backgroundImage: `url(${blogImage1})` }}></span>
+              <span className="img" style={{ backgroundImage: `url(${blogImage9})` }}></span>
               <div className="desc">
                 <h3>Task & Project Management</h3>
-                <span className="cat">This tool does this..</span>
+                <span className="cat">These tools use artificial inelligence to improve the efficiency, accuracy, and organization of project management tasks.</span>
               </div>
             </Link>
           </div>
           <div className="col-md-12 animate-box">
             <Link to="#" className="blog-post">
-              <span className="img" style={{ backgroundImage: `url(${blogImage1})` }}></span>
+              <span className="img" style={{ backgroundImage: `url(${blogImage10})` }}></span>
               <div className="desc">
                 <h3>Content Creation</h3>
-                <span className="cat">This tool does this..</span>
+                <span className="cat">These tools use artificial intelligence to create written, visual, our audio content baed on text prompts.</span>
               </div>
             </Link>
           </div>
