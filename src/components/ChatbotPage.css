@@ -1,49 +1,72 @@
 .chatbot-page {
-  max-width: 1200px;
-  margin: 0 auto;
+  max-width: auto;
+  margin: auto;
   padding: 40px;
+  background-color: #4caf50;
 }
 
-.chatbot-content {
-  margin-top: 60px;
-}
-
-.carbon-info {
-  margin-bottom: 60px;
-}
-
-.carbon-info h2 {
-  font-size: 32px;
+.chatbot-page h1 {
+  text-align: left;
   margin-bottom: 20px;
 }
 
-.carbon-info p {
-  font-size: 18px;
-  line-height: 1.6;
+.stats-container {
+  display: grid;
+  grid-template-columns: repeat(2, 8fr);
+  gap: 20px;
 }
 
-.carbon-reduction h2 {
-  font-size: 32px;
-  margin-bottom: 20px;
+.stat-item {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 8px;
 }
 
-.carbon-reduction ul {
-  list-style-type: none;
-  padding: 0;
+.stat-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
 }
 
-.carbon-reduction li {
-  font-size: 18px;
-  line-height: 1.6;
-  margin-bottom: 15px;
+.stat-label {
+  font-weight: bold;
+}
+
+.stat-value {
+  font-size: 24px;
+}
+
+.stat-subheader {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.stat-footer {
+  text-align: center;
+}
+
+.stat-progress {
+  height: 20px;
+  background-color: #e0e0e0;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  overflow: hidden;
   position: relative;
-  padding-left: 30px;
 }
 
-.carbon-reduction li:before {
-  content: '✓';
+.progress-bar {
+  height: 100%;
+  background-color: #4caf50;
+  border-radius: 20px;
   position: absolute;
+  top: 0;
   left: 0;
-  color: #4caf50;
-  font-size: 20px;
+  transition: width 0.5s ease;
+}
+
+.stat-score {
+  font-size: 18px;
+  font-weight: bold;
 }

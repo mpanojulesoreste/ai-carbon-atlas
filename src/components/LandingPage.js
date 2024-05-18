@@ -1,9 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './LandingPage.css';
-import blogImage1 from './images/blog-1.jpg';
-import blogImage2 from './images/blog-2.jpg';
+import blogImage1 from './images/bg.jpg';
+import blogImage2 from './images/image_generation.png';
 import blogImage3 from './images/blog-3.jpg';
+import blogImage4 from './images/chatbot.jpg';
 
 const LandingPage = () => {
   return (
@@ -11,9 +12,8 @@ const LandingPage = () => {
       <div className="featured-blog" style={{ backgroundImage: `url(${blogImage1})` }}>
         <div className="desc-t">
           <div className="desc-tc">
-            <span className="featured-head">AI is Hurting the Environment...</span>
             <h3>
-              <h3>See how much Carbon Dioxide AI Tools Produces </h3>
+              <h3>Navigate the Carbon Footprint of AI, One Tool at a Time</h3>
             </h3>
           </div>
         </div>
@@ -26,19 +26,19 @@ const LandingPage = () => {
         </div>
         <div className="row">
           <div className="col-md-12 animate-box">
-            <Link to="#" className="blog-post">
-              <span className="img" style={{ backgroundImage: `url(${blogImage2})` }}></span>
+            <Link to="/chatbot" className="blog-post">
+              <span className="img" style={{ backgroundImage: `url(${blogImage4})` }}></span>
               <div className="desc">
-                <h3>CHATBOTS</h3>
+                <h3>Chatbots</h3>
                 <span className="cat">This tool does this...</span>
               </div>
             </Link>
           </div>
           <div className="col-md-12 animate-box">
             <Link to="#" className="blog-post">
-              <span className="img" style={{ backgroundImage: `url(${blogImage1})` }}></span>
+              <span className="img" style={{ backgroundImage: `url(${blogImage2})` }}></span>
               <div className="desc">
-                <h3>IMAGE GENERATION</h3>
+                <h3>Image Generation</h3>
                 <span className="cat">This tool does this..</span>
               </div>
             </Link>
@@ -47,7 +47,7 @@ const LandingPage = () => {
             <Link to="#" className="blog-post">
               <span className="img" style={{ backgroundImage: `url(${blogImage3})` }}></span>
               <div className="desc">
-                <h3>GRAMMAR CHECKERS</h3>
+                <h3>Grammar Checkers</h3>
                 <span className="cat">This tool does this..</span>
               </div>
             </Link>
@@ -56,7 +56,7 @@ const LandingPage = () => {
             <Link to="#" className="blog-post">
               <span className="img" style={{ backgroundImage: `url(${blogImage1})` }}></span>
               <div className="desc">
-                <h3>JJJJJJ</h3>
+                <h3>Video Production</h3>
                 <span className="cat">This tool does this..</span>
               </div>
             </Link>
@@ -65,7 +65,7 @@ const LandingPage = () => {
             <Link to="#" className="blog-post">
               <span className="img" style={{ backgroundImage: `url(${blogImage2})` }}></span>
               <div className="desc">
-                <h3>JJJJJJJJJ</h3>
+                <h3>Voice & Music Generation</h3>
                 <span className="cat">This tool does this..</span>
               </div>
             </Link>
@@ -74,7 +74,34 @@ const LandingPage = () => {
             <Link to="#" className="blog-post">
               <span className="img" style={{ backgroundImage: `url(${blogImage1})` }}></span>
               <div className="desc">
-                <h3>HHHHHHHHHHH</h3>
+                <h3>Scheduling</h3>
+                <span className="cat">This tool does this..</span>
+              </div>
+            </Link>
+          </div>
+          <div className="col-md-12 animate-box">
+            <Link to="#" className="blog-post">
+              <span className="img" style={{ backgroundImage: `url(${blogImage1})` }}></span>
+              <div className="desc">
+                <h3>Transcription and Meeting Assistants</h3>
+                <span className="cat">This tool does this..</span>
+              </div>
+            </Link>
+          </div>
+          <div className="col-md-12 animate-box">
+            <Link to="#" className="blog-post">
+              <span className="img" style={{ backgroundImage: `url(${blogImage1})` }}></span>
+              <div className="desc">
+                <h3>Task & Project Management</h3>
+                <span className="cat">This tool does this..</span>
+              </div>
+            </Link>
+          </div>
+          <div className="col-md-12 animate-box">
+            <Link to="#" className="blog-post">
+              <span className="img" style={{ backgroundImage: `url(${blogImage1})` }}></span>
+              <div className="desc">
+                <h3>Content Creation</h3>
                 <span className="cat">This tool does this..</span>
               </div>
             </Link>
