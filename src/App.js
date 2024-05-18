@@ -17,7 +17,7 @@ function App() {
           <Route path="/" element={<LandingPage />} />
           <Route path="/carbon-diagram" element={<CarbonDiagram />} />
           <Route path="/chatbot" element={<ChatbotPage />} />
-          <Route path ="/about" Component={About} />
+          <Route path ="/about" element={About} />
           <Route path ="/join" Component={Join} />
           {/* Add more routes for other pages */}
         </Routes>

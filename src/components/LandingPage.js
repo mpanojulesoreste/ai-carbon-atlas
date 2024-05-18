@@ -3,8 +3,10 @@ import { Link } from 'react-router-dom';
 import './LandingPage.css';
 import blogImage1 from './images/bg.jpg';
 import blogImage2 from './images/image_generation.png';
-import blogImage3 from './images/blog-3.jpg';
+import blogImage3 from './images/grammar_checkers.png';
 import blogImage4 from './images/chatbot.jpg';
+import blogImage5 from './images/video_production.png';
+import blogImage6 from './images/voice_generation.jpg';
 
 const LandingPage = () => {
   return (
@@ -30,7 +32,7 @@ const LandingPage = () => {
               <span className="img" style={{ backgroundImage: `url(${blogImage4})` }}></span>
               <div className="desc">
                 <h3>Chatbots</h3>
-                <span className="cat">This tool does this...</span>
+                <span className="cat">Programs that uses natural language processing (NLP) and machine learning to simulate human-like interactions with people. </span>
               </div>
             </Link>
           </div>
@@ -39,7 +41,7 @@ const LandingPage = () => {
               <span className="img" style={{ backgroundImage: `url(${blogImage2})` }}></span>
               <div className="desc">
                 <h3>Image Generation</h3>
-                <span className="cat">This tool does this..</span>
+                <span className="cat">Software applications that use AI and ML to create images from scratch ortransform existing ones.</span>
               </div>
             </Link>
           </div>
@@ -48,25 +50,25 @@ const LandingPage = () => {
               <span className="img" style={{ backgroundImage: `url(${blogImage3})` }}></span>
               <div className="desc">
                 <h3>Grammar Checkers</h3>
-                <span className="cat">This tool does this..</span>
+                <span className="cat">These tools use AI to automatically analyze text and identify and correct grammatical errors and sppelling mistakes.</span>
               </div>
             </Link>
           </div>
           <div className="col-md-12 animate-box">
             <Link to="#" className="blog-post">
-              <span className="img" style={{ backgroundImage: `url(${blogImage1})` }}></span>
+              <span className="img" style={{ backgroundImage: `url(${blogImage5})` }}></span>
               <div className="desc">
                 <h3>Video Production</h3>
-                <span className="cat">This tool does this..</span>
+                <span className="cat">These tools use machine learning to create video content from user prompts.</span>
               </div>
             </Link>
           </div>
           <div className="col-md-12 animate-box">
             <Link to="#" className="blog-post">
-              <span className="img" style={{ backgroundImage: `url(${blogImage2})` }}></span>
+              <span className="img" style={{ backgroundImage: `url(${blogImage6})` }}></span>
               <div className="desc">
                 <h3>Voice & Music Generation</h3>
-                <span className="cat">This tool does this..</span>
+                <span className="cat">These tools use machine learning and large amounts of training audio data to create new audio content</span>
               </div>
             </Link>
           </div>
